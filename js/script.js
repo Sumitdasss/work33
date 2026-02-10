@@ -34,7 +34,7 @@ buttonone.addEventListener("click", () => {
 
  buttontwo.addEventListener("click",()=>{
 idCard.classList.remove("hidden")
-if(inputtwo.value == "1" && inputthree.value=="1"){
+if(inputtwo.value == "123" && inputthree.value=="123"){
   cardOne.classList.remove("hidden")
   setTimeout(()=>{
     cardOne.classList.add("hidden")
@@ -43,14 +43,14 @@ if(inputtwo.value == "1" && inputthree.value=="1"){
 
 }
 
-else if(inputtwo.value == "2" && inputthree.value=="2"){
+else if(inputtwo.value == "1234" && inputthree.value=="1234"){
 cardTwo.classList.remove("hidden")
 
 setTimeout(()=>{
     cardTwo.classList.add("hidden")
   },1500)
 }
-else if(inputtwo.value == "3" && inputthree.value=="3"){
+else if(inputtwo.value == "12345" && inputthree.value=="12345"){
 cardThree.classList.remove("hidden")
 setTimeout(()=>{
     cardThree.classList.add("hidden")
